@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>츄파춥스</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/default.css">
+    <!-- pc -->
+    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 767px)">
+    <!-- mobile -->
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+  <!-- 제이쿼리 하위 호완성 추가 -->
+  <script src="./js/main.js"></script>
+
+  <!-- 파비콘 -->
+  <link rel="favicon" href="./favicon/favicon.ico">
+  <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
+
+  <!-- 소개 -->
+  <meta name="description" content="3월 14일 화이트 데이를 맞이하여 츄파춥스 사이트를 제작 해 보았습니다. 전체적인 색은 핑크 계열를 사용하였으며 구성은 신 상품 소개 및 화이트 이벤트의 대한 광고홈페이지 느낌을 주었습니다.">
+
+  <!-- 태그 -->
+  <meta name="keywords" content="ui/ux, 웹디자인, 과제, 츄퍼춥스, 화이트 데이">
+  <!-- 저자 -->
+  <meta name="author" content="신희준">
+
+  <!-- 오픈그래프 -->
+  <meta property="og:image" content="./title/title.jpg">
+  <meta property="og:title" content="츄파춥스">
+  <meta property="og:description" content="3월 14일 화이트 데이를 맞이하여 츄파춥스 사이트를 제작 해 보았습니다. 전체적인 색은 핑크 계열를 사용하였으며 구성은 신 상품 소개 및 화이트 이벤트의 대한 광고홈페이지 느낌을 주었습니다.">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <a href="./">
+                <img src="./images/logo.png" alt="츄파춥스">
+            </a>
+        </h1>
+        <nav id="gnb">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">소식</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이벤트</a></li>
+                <img src="./images/icon1.svg" alt="검색">
+            </ul>
+        </nav>
+
+        <div id="menu">
+            <button id="site-map-btn" class="pc-only">
+                <img src="./images/pc-menu.svg" alt="site map">
+            </button>
+            <!-- 모바일용 토글 버튼 -->
+            <button id="gnb-tpggle-btn" class="mobile-only">
+                <img src="./images/mb-menu.svg" alt="main menu">
+            </button>
+        </div>
+    </header>
+    <!-- Slider main container -->
+<div class="swiper" class="pc-only">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide s1"></div>
+      <div class="swiper-slide s2"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <script src="./js/swiper.js"></script>
+    </div>
+    <main>
+        <img class="mobile-only" src="./images/main-mobil.jpg" alt="img">
+        <section id="content1">
+            <img class="pc-only" src="./images/content-pc.jpg" alt="랍 락커">
+            <img class="mobile-only" src="./images/content-mobil.jpg" alt="립 락커">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h1>츄파춥스 랍 락커</h1>
+                    <img class="pc-only" src="./images/Rectangle 2.png" alt="box">
+                <p>2022.2.27 ~  3.13,<br>
+                    이벤트 응모하고 춥파춥스 랍 락커 선물 받자~!</p>
+                    <img class="mobile-only" src="./images/mo-Rectangle1.png" alt="mobile-box">
+        </section>
+
+        <section id="content2">
+            <div class="content-box">
+                <h1>WHITE DAY</h1>
+            <div class="youtubu">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XID7ovJXV5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2>사랑하는 사람의 마음을 잡을 두근두근 화이트 데이!</h2>
+            <img class="pc-only" src="./images/Rectangle 3.png" alt="box2">
+            
+            <img class="mobile-only" src="./images/mo-Rectangle2.png" alt="mobile-box2">
+            </div>
+            
+        </section>
+    </main>
+    <footer id="footer">
+        <img class="mobile-only" src="./images/logo.png" alt="츄파춥스">
+        <p>
+            © Chupa Chups 2022 <span>|</span>
+        </p>
+        <div id="footer-gnb" class="pc-only">
+            <ul>
+                <li><a href="#">Terms of KR</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Countries</a></li>
+            </ul>
+        </div>
+        <h2>MORE</h2>
+        <img src="./images/more.svg" alt="더보기">
+    </footer>
+    <!-- sitrmap modal-->
+    <div id="sitemap-modal" class="pc-only">
+        <ul>
+                <li><a href="#">Home</a>
+                </li>
+                <li><a href="#">회사소개</a>
+                </li>
+                <li><a href="#">소식</a>
+                </li>
+                <li><a href="#">고객센터</a>
+                </li>
+        </ul>
+        <button id="sitemap-modal-close" class="pc-only">
+            <h1>Ⅹ</h1>
+        </button>
+    </div><!-- site map modal -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* default.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+    --main-color: #DE1048;
+    --sub-color1: #E93754;
+    --sub-color2: #F5A0D1;
+    --sub-color3: #FD69C1;
+    --mobile-sub-color: #FFF9F1;
+}
